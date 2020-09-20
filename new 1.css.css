@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    padding-top: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 1px solid yellow;
+    background-color: green;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: blink;
+}
+
+#wrapper {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Large devices */
+@media (min-width: 992px) {
+    .large {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    .medium1, .medium2 {
+        float: left;
+    }
+
+    .medium1 {
+        width: 50%;
+    }
+
+    .medium2 {
+        width: 100%;
+    }
+}
+
+/* Small devices */
+@media (max-width: 767px) {
+    .small {
+        float: left;
+        width: 100%;
+    }
+}
+
+h2 {
+    position: relative;
+    top: -3.75px;
+    float: right;
+    margin-right: 10%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#pork {
+    background-color: mediumpurple;
+    margin-right: 5%;
+}
+
+#chicken {
+    background-color: lightpink;
+    margin-right: 5%;
+}
+
+#seafood {
+    background-color: cornflowerblue;
+    margin-right: 5%;
+}
